@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contato</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+<h1>Contate-nos</h1>
+<div class="container">
+    <form id="fomrulario_contato" method="post" action="">
+        Deixe seu: <br>
+        <label><input type="radio" name="opcao_contato">Elogio</label>
+        <label><input type="radio" name="opcao_contato"> Reclamação</label>
+        <br>
+        Preencha para contato:
+        <label><input type="text" name="campo_nome" value="" placeholder="Nome Completo"> </label>
+        <label><input type="email" name="campo_email" value="" placeholder="E-mail"></label>
+        <br>
+        <label>
+            <textarea name="campo_texto" cols="50" rows="5" placeholder="Seu texto aqui"></textarea>
+        </label>
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+</div>
+
+</body>
+<footer>
+    <div class="container">
+        <ul>
+            <li>
+                <div class="list-item">
+                    <a href="https://github.com/AzurePi/Topicos">
+                        <img id="github_logo" alt="GitHub Logo" src="../IMG/github-mark-white.png">
+                        GitHub</a>
+                </div>
+            </li>
+        </ul>
+        <br>
+        <div class="horizontal">
+            <form action="home.html">
+                <input type="submit" value="Home">
+            </form>
+        </div>
+    </div>
+</footer>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+
+<h1>Cadastro</h1>
+
+<div class="center container">
+    <form id="cadastro" method="post" action="">
+        <div class="center horizontal">
+            <label> Nome: <input type="text" name="campo_nome" required content="Nome"> </label>
+            <label> E-mail: <input type="email" name="campo_email" required> </label>
+        </div>
+
+        <div class="center horizontal">
+            <label> Data de Nascimento: <input type="date" name="campo_data" required> </label>
+            <label> Telefone: <input type="text" name="campo_telefone" required> </label>
+        </div>
+        <div class="center horizontal" style="margin-top: 5px">
+            <input type="submit" value="Salvar">
+            <input type="reset" value="Limpar">
+        </div>
+    </form>
+</div>
+</body>
+<footer>
+    <div class="container">
+        <ul>
+            <li>
+                <div class="list-item">
+                    <a href="https://github.com/AzurePi/Topicos">
+                        <img id="github_logo" alt="GitHub Logo" src="../IMG/github-mark-white.png">
+                        GitHub</a>
+                </div>
+            </li>
+        </ul>
+        <br>
+        <div class="horizontal">
+            <form action="home.html">
+                <input type="submit" value="Home">
+            </form>
+        </div>
+    </div>
+</footer>
+</html>

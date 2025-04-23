@@ -1,0 +1,57 @@
+body {
+    background-image: url("../IMG/wp6828597-1305305820.jpg");
+    background-color: #00eaff;
+}
+
+h1 {
+    margin-left: 15px;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 5px;
+    justify-content: center;
+}
+
+.horizontal {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}
+
+.container {
+    background-color: peachpuff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px #00000029;
+    margin: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+li  {
+    list-style-type: none;
+}
+
+.list-item a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: inherit;
+}
+
+#github_logo {
+    height: 20px;
+}
